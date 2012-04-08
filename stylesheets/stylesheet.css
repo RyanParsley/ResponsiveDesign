@@ -401,6 +401,10 @@ Small Device Styles
   h1 {
     font-size: 28px;
   }
+  h1 span{
+    font-size:24px;
+    display:block;
+  }
 
   h2 {
     font-size: 24px;
