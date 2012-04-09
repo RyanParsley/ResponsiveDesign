@@ -2,19 +2,23 @@
 	font-family: "Helvetica Neue", sans-serif;
 	font-size:1.25em;
 	background:#fff;
-	
+	strong, em{
+    color:#000;
+  }
 	.slide {
 		background:#fff;
 		
 		h1 {
 			color:#000;
       text-align:left;
-      font-size:4em;
+      font-size:3.5em;
       line-height:1;
+
       span{
-        font-size:.5em;
+        font-size:.75em;
         line-height:2;
         display:block;
+        color:#888;
       }
 		}
 
@@ -36,7 +40,7 @@
 		}
 
 		blockquote {
-			font-size:2em;
+			font-size:1.75em;
 			font-style:italic;
 			padding:1em 2em;
 			color:#000;
@@ -47,10 +51,13 @@
 			}
 
 			cite {
-				font-size:.5em;
+				font-size:.6em;
+        line-height:2;
 				font-style:normal;
 				font-weight:bold;
 				color:#888;
+        text-align:right;
+        display:block;
 			}
 		}
 

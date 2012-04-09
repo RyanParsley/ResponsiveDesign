@@ -2,17 +2,20 @@
   font-family: "Helvetica Neue", sans-serif;
   font-size: 1.25em;
   background: #fff; }
+  .deck-container strong, .deck-container em {
+    color: #000; }
   .deck-container .slide {
     background: #fff; }
     .deck-container .slide h1 {
       color: #000;
       text-align: left;
-      font-size: 4em;
+      font-size: 3.5em;
       line-height: 1; }
       .deck-container .slide h1 span {
-        font-size: .5em;
+        font-size: .75em;
         line-height: 2;
-        display: block; }
+        display: block;
+        color: #888; }
     .deck-container .slide h2 {
       color: #c00;
       border-bottom-color: #ccc; }
@@ -23,7 +26,7 @@
     .deck-container .slide code {
       color: #888; }
     .deck-container .slide blockquote {
-      font-size: 2em;
+      font-size: 1.75em;
       font-style: italic;
       padding: 1em 2em;
       color: #000;
@@ -31,10 +34,13 @@
       .deck-container .slide blockquote p {
         margin: 0; }
       .deck-container .slide blockquote cite {
-        font-size: .5em;
+        font-size: .6em;
+        line-height: 2;
         font-style: normal;
         font-weight: bold;
-        color: #888; }
+        color: #888;
+        text-align: right;
+        display: block; }
     .deck-container .slide ::-moz-selection {
       background: #c00;
       color: #fff; }
